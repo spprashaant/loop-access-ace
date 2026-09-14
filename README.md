@@ -1,5 +1,6 @@
 # Loop Access Requests — Viva Connections Adaptive Card Extension
 
+![alt text](image.png)
 A SharePoint Framework (SPFx) **Adaptive Card Extension (ACE)** for the Viva Connections dashboard that gives approvers an at-a-glance view of pending **Microsoft Loop workspace access requests**, without leaving the dashboard.
 
 - **Card view** shows a live count of pending requests.
