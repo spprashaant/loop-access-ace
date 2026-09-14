@@ -1,0 +1,15 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    { "type": "TextBlock", "text": "Pending Loop access requests", "weight": "Bolder", "size": "Medium" },
+    {
+      "type": "Container",
+      "$data": "${requests}",
+      "items": [
+        { "type": "TextBlock", "text": "${title}", "weight": "Bolder", "wrap": true },
+        { "type": "TextBlock", "text": "${requester} · expires ${formatDateTime(expiresOn, 'dd MMM yyyy')}", "isSubtle": true, "spacing": "None", "wrap": true }
+      ]
+    }
+  ]
+}

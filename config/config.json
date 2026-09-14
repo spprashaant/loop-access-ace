@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "loop-access-requests-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/loopAccessRequests/LoopAccessRequestsAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/loopAccessRequests/LoopAccessRequestsAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LoopAccessRequestsAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/loopAccessRequests/loc/{locale}.js"
+  }
+}

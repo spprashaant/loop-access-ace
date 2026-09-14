@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "loop-access-ace-client-side-solution",
+    "id": "6dd6b6bf-3e5b-4f2c-8578-143a367b7731",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "loop-access-ace description"
+      },
+      "longDescription": {
+        "default": "loop-access-ace description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "loop-access-ace Feature",
+        "description": "The feature that activates elements of the loop-access-ace solution.",
+        "id": "11d0065d-28a3-4b87-b06e-1814b2d1019f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/loop-access-ace.sppkg"
+  }
+}

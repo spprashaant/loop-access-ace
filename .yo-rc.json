@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.2",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "loop-access-ace",
+    "libraryId": "6dd6b6bf-3e5b-4f2c-8578-143a367b7731",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "loop-access-ace",
+    "solutionShortDescription": "loop-access-ace description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Generic"
+  }
+}
